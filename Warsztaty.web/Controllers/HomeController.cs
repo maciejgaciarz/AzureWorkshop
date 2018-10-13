@@ -24,6 +24,10 @@ namespace Warsztaty.web.Controllers
 
             contact.Add(model);
 
+            
+
+
+
             return RedirectToAction("Contact");
         }
         public IActionResult About()
